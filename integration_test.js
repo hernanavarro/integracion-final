@@ -4,7 +4,7 @@ const expect = require('chai').expect;
 const {I} = inject();
 
 Scenario('Checking if Backend is already up', async () =>{
-    I.amOnPage('https://backend-final-production.up.railway.app/');
+    I.amOnPage('https://backend-final-production.up.railway.app/value');
 });
 
 Scenario('Checking if Frontend is already uo and buttons Render correctly', async () => {
