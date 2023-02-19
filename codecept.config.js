@@ -32,5 +32,5 @@ exports.config = {
             }
           }
       },
-    name: 'IntegrationTestForIS3'
+    name: 'integracion-final'
   }
