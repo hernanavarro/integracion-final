@@ -16,5 +16,8 @@
         "@codeceptjs/ui": "^0.5.0",
         "codeceptjs": "^3.4.1",
         "playwright": "^1.30.0"
+    },
+    "dependencies": {
+        "@testomatio/reporter": "^0.7.4"
     }
 }
