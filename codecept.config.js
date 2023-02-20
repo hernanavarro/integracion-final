@@ -4,7 +4,7 @@ exports.config = {
     output: './output',
     helpers: {
       Playwright: {
-        url: 'https://frontend-production-0c0f.up.railway.app',
+        url: 'https://frontend-final-production.up.railway.app',
         onRequest: () => {
   
         },

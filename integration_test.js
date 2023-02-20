@@ -7,7 +7,7 @@ Scenario('Checking if Backend is already up', async () =>{
     I.amOnPage('https://backend-final-production.up.railway.app/value');
 });
 
-Scenario('Checking if Frontend is already uo and buttons Render correctly', async () => {
+Scenario('Checking if Frontend is already up and buttons Render correctly', async () => {
     I.amOnPage('https://frontend-final-production.up.railway.app/');
     I.see('ADD', {css: '#btn'});
     I.see('SUBTRACT', {css: '#btn'});
