@@ -16,7 +16,7 @@ Scenario('Checking if Frontend is up and buttons Render correctly', async () => 
     I.see('RESTART', { css: '#btn-restart' });
 });
 
-Scenario('Checking Buttons Behaviour and Backend response', async () => {
+Scenario('Checking that the api works well', async () => {
     I.amOnPage('https://frontend-final-production.up.railway.app/');
 
     I.click({css: '#btn-restart'});
